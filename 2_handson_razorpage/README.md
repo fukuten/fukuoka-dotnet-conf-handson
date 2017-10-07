@@ -23,7 +23,6 @@ dotnet new razor -o RazorPagesMovie
 `RazorPagesMovie`ディレクトリをVisual Studio Codeで開きましょう。
 
 ### まず実行してみる
-#### コマンドで実行する
 Visual Studio Codeのターミナルで以下のコマンドを入力します。
 
 ```
@@ -36,16 +35,7 @@ Kestrelについてはこちらをご覧ください。
 [ASP.NET Core の kestrel web サーバーの実装 | Microsoft Docs](https://docs.microsoft.com/ja-jp/aspnet/core/fundamentals/servers/kestrel?tabs=aspnetcore2x)
 
 ブラウザで[http://localhost:5000](http://localhost:5000)にアクセスしてみましょう。  
-Kestrelを停止する場合はターミナルにて`Ctrl+C`を入力します。
-
-#### Visual Studio Codeで実行する
-1. メニュー **デバッグ** > **デバッグの開始** をクリックします。
-2. 環境の選択にて **.NET Core** を選択します。
-3. `Error processing launch options at field: program`というエラーが表示された場合は以下を行ってください。
-    1. エラーダイアログの`launch.json を開く`をクリックします。
-    2. 環境の選択にて **.NET Core** を選択します。
-    3. `.vscode`ディレクトリ内に`launch.json`ファイルが作成されます。
-    4. 再度デバッグを開始します。
+Kestrelを停止する場合はターミナルで`Ctrl+C`を入力します。
 
 ### モデルの追加
 1. `RazorPagesMovie`ディレクトリの配下に`Models`ディレクトリを作成します。
