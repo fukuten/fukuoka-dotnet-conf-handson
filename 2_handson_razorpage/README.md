@@ -63,14 +63,19 @@ namespace RazorPagesMovie.Models
 2. `MovieContext.cs`に下記のようにDBに関する情報を定義します。
 
 ```cs
-public class MovieContext : DbContext
-{
-    public MovieContext(DbContextOptions<MovieContext> options)
-            : base(options)
-    {
-    }
+using Microsoft.EntityFrameworkCore;
 
-    public DbSet<Movie> Movie { get; set; }
+namespace RazorPagesMovie.Models
+{
+    public class MovieContext : DbContext
+    {
+        public MovieContext(DbContextOptions<MovieContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Movie> Movie { get; set; }
+    }
 }
 ```
 
