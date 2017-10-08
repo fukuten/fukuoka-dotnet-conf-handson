@@ -4,8 +4,6 @@
 ## ハンズオン環境
 [事前準備]()に従ってハンズオン環境を整えてください。
 
-## Dockerとは？
-
 ## 題材
 まだ[ASP.NET Core 2.0 Razor Pages]()のハンズオンが済んでいない方は先にそちらのハンズオンを実施してください。
 
@@ -55,16 +53,18 @@ ENTRYPOINT [ "dotnet", "RazorPagesMovie.dll" ]
 
 ```shell
 cd RazorPagesMovie
-docker build -t fukutenapp .
+docker build -t fukutenrazorapp .
 ```
 
 ### コンテナの実行
 下記コマンドでコンテナを作成し、アプリケーションを実行します。
 
 ```shell
-docker run --rm -p 8000:80 fukutenapp
+docker run --rm -p 8000:80 fukutenrazorapp
 ```
 
 ### アプリケーションへのアクセス
 [http://localhost:8000/](http://localhost:8000/) にアクセスし、アプリケーションが正しく実行されることを確認します。  
 また [http://localhost:8000/movies](http://localhost:8000/movies) にて、データのCRUD操作ができることも確認しましょう。
+
+以上でDockerコンテナのハンズオンは終わりです。
