@@ -10,7 +10,7 @@ Microsoft Visual Studio の公式サイトから、「Visual Studio Code」の�
 [ファイル情報]
 
 ・ファイル名： VSCode-darwin-stable.zip  
-・ファイルサイズ： 約66MB (バージョン1.16.1)
+・ファイルサイズ： 約66MB (バージョン1.17.1)
 
 
 ## インストール

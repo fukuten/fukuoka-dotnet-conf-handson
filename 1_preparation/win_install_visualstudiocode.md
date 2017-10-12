@@ -12,12 +12,12 @@ Microsoft Visual Studio の公式サイトから、「Visual Studio Code」の�
 [ファイル情報]
 
 (64bitの場合)  
-・ファイル名： VSCodeSetup-x64-1.16.1.exe  
-・ファイルサイズ： 約44MB
+・ファイル名： VSCodeSetup-x64-1.17.1.exe  
+・ファイルサイズ： 約40MB
 
 (32bitの場合)  
-・ファイル名： VSCodeSetup-ia32-1.16.1.exe  
-・ファイルサイズ： 約38MB
+・ファイル名： VSCodeSetup-ia32-1.17.1.exe  
+・ファイルサイズ： 約35MB
 
 
 ## インストール
