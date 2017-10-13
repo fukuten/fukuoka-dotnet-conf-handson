@@ -2,7 +2,7 @@
 今回のハンズオンはASP.NET Core 2.0 Razor Pagesです。
 
 ## ハンズオン環境
-[事前準備]()に従ってハンズオン環境を整えてください。
+[事前準備](../1_preparation/README.md)に従ってハンズオン環境を整えてください。
 
 ## ASP.NET Core Razor Pagesとは？
 [ASP.NET Core での Razor ページの概要 | Microsoft Docs](https://docs.microsoft.com/ja-jp/aspnet/core/mvc/razor-pages/)
