@@ -68,7 +68,7 @@ Microsoft .NET Core Shared Framework Host
 
 ## .NET Core SDK の簡易な動作確認
 
-コマンドプロンプト または PowerShell を起動して、アプリケーションを作成するフォルダへ移動します。  
+ターミナルを起動して、アプリケーションを作成するフォルダへ移動します。  
 (例：「~/Projects」)
 
 ```
