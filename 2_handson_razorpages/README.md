@@ -16,6 +16,7 @@
 
 ```
 mkdir fukuten
+cd fukuten
 dotnet new razor -o RazorPagesMovie
 ```
 
