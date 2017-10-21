@@ -112,6 +112,8 @@ public void ConfigureServices(IServiceCollection services)
 
 ![add-references](images/add-reference.jpg)
 
+同様にUseSqliteも同じ状態になっているので、電球マークをクリックして同じように「Microsoft.EntityFrameworkCore」への参照を追加します。
+
 ### マイグレーションの設定
 1. `RazorPagesMovie.csproj`ファイルを開きます。
 2. 2つ目の`<ItemGroup>`要素に`Microsoft.EntityFrameworkCore.Tools.DotNet`を記載します。
